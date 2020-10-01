@@ -1,0 +1,13 @@
+html, 
+body {
+    margin: 0;
+    padding: 2rem;
+}
+
+.yellow {
+    color: orange;
+}
+.select:after {
+    content:"\f0dc";
+    font-family: FontAwesome;
+}
