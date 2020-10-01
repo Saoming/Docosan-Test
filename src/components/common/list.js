@@ -1,8 +1,8 @@
 import React from "react"
-import {Container, LeftContainer, RightContainer, RightSubContainer, Avatar, Heading, Label} from "./styled-list"
+import {Container, LeftContainer, RightContainer,  RightSubContainer, RightSmallContainer, Avatar, Heading, Label} from "./styled-list"
 import Star from "./star"
 
-const List = ({ name, distance, rating, language, imgUrl, clinicName, clinicAddress, specialties}) => {
+const List = ({ name, rating, imgUrl, clinicName, clinicAddress, specialties}) => {
 
     return (
         <Container>
@@ -17,8 +17,12 @@ const List = ({ name, distance, rating, language, imgUrl, clinicName, clinicAddr
                         return  <Label key={specialty.specialty_id}> {specialty.name}</Label>
                     }) }
                 </RightSubContainer>
-                <Label> {clinicName}</Label>
-                <Label> {clinicAddress}</Label>
+                <RightSmallContainer>
+                    <Label> {clinicName}</Label>
+                </RightSmallContainer>
+                <RightSmallContainer>
+                    <Label> {clinicAddress}</Label>
+                </RightSmallContainer>
             </RightContainer>
         </Container>
     );

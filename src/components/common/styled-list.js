@@ -5,8 +5,8 @@ const Container = styled.div`
     
     display: flex;
     padding: 2rem;
-    background: #f4f4f4;
     margin-bottom: 0.5rem;
+    box-shadow: 3px 2px 6px #333333;
 `;
 
 const LeftContainer = styled.div`
@@ -19,6 +19,10 @@ const RightContainer = styled.div`
 `;
 const RightSubContainer = styled.div`
     display: flex;
+    margin-bottom: 15px;
+`
+const RightSmallContainer = styled.div`
+    margin-bottom: 10px;
 `
 
 const Avatar = styled.img`
@@ -27,12 +31,12 @@ const Avatar = styled.img`
 `;
 
 const Heading = styled.h2`
-
+    color:  #333333;
 `;
 
 const Label = styled.span`
-
+    color:  #333333;
 `
 
 
-export {Container, LeftContainer, RightContainer, Avatar, Heading, Label, RightSubContainer}
+export {Container, LeftContainer, RightContainer, Avatar, Heading, Label, RightSubContainer, RightSmallContainer}
