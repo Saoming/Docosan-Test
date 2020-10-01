@@ -91,8 +91,8 @@ const MenuName = styled.span`
 const SelectButton = styled.select`a
     appearance: ${props => props.active ? 'auto' : 'none'};
     background: ${props => props.primary ? '#4AC0A4' : 'transparent'};
-    color:      ${props => props.primary ? '#fff' : '#000'};
-    border:     ${props => props.primary ? '1px solid #4AC0A4' : '1px solid #000'};
+    color:      ${props => props.primary ? '#fff' : ' #333333'};
+    border:     ${props => props.primary ? '1px solid #4AC0A4' : '1px solid  #333333'};
 
     margin-right: 0.75rem;
     border-radius: 10px;
