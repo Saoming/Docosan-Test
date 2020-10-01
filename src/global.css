@@ -5,9 +5,8 @@ body {
 }
 
 .yellow {
-    color: orange;
+    color: gold;
 }
-.select:after {
-    content:"\f0dc";
-    font-family: FontAwesome;
+h1 {
+    color:  #333333;
 }
