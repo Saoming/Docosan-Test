@@ -8,9 +8,6 @@ const Menu = () => {
 
 const [items, setItems] = useState([]);
 const [sortType, setSortType] = useState('distance');
-
-const data = [...notCleanData];
-sortedItems 
 const filterLanguages = ["vi", "en", "fr"];
 
 
